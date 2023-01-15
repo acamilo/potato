@@ -1,7 +1,7 @@
 @groovy.transform.InheritConstructors
 class Tank {
 	int facets = 16;
-	double length = 600;
+	double length = 300;
 	double diameter = 150;
 	double cyllen = length-diameter;
 	def toCSG(){
